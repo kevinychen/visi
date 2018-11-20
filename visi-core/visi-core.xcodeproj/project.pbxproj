@@ -239,6 +239,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7QWX28KQQ;
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.3/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/3.4.3/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +255,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7QWX28KQQ;
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.3/include/**";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/3.4.3/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
